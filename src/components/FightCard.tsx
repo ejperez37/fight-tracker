@@ -5,7 +5,9 @@ import {
   CardContent,
   CardDescription,
 } from '@/components/ui/card'
+import { CalendarPlus } from 'lucide-react'
 import Image from 'next/image'
+import { Button } from '@/components/ui/button'
 
 export default function FightCard() {
   return (
@@ -50,6 +52,11 @@ export default function FightCard() {
                 <li>Nathan Maness v Mateus Mendonca</li>
               </ul>
             </figure>
+          </div>
+          <div className="flex w-full justify-end my-2">
+            <Button>
+              <CalendarPlus></CalendarPlus>
+            </Button>
           </div>
         </CardContent>
       </Card>
