@@ -14,7 +14,7 @@ export default function Header() {
         <div className="ms-8">
           <FilterMenu></FilterMenu>
         </div>
-        <div className="w-full flex justify-center me-20">
+        <div className="w-full text-center">
           <h1 className="underline bold text-xl">fight tracker</h1>
         </div>
         <Button

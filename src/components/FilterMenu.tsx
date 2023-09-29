@@ -31,8 +31,8 @@ export default function FilterMenu() {
           </SheetDescription>
         </SheetHeader>
         <div>
-          <Separator className="sm:my-4"></Separator>
-          <h2 className="underline sm:mb-2">Sport</h2>
+          <Separator className="my-4"></Separator>
+          <h2 className="underline mb-2">Sport</h2>
           <div className="pe-4">
             <Switch id="MMA" checked={true} />
             <Label htmlFor="MMA"> | Mixed Martial Arts</Label>
@@ -54,11 +54,11 @@ export default function FilterMenu() {
             <Label htmlFor="bjj"> | Brazilian Jiu-Jitsu</Label>
           </div>
         </div>
-        <Separator className="sm:my-4"></Separator>
+        <Separator className="my-4"></Separator>
         <div>
           <h2 className="underline mb-2">League</h2>
           <div className="">
-            <Switch id="ufc" />
+            <Switch id="ufc" checked={true} />
             <Label htmlFor="ufc"> | UFC</Label>
           </div>
           <div className="">
@@ -78,8 +78,8 @@ export default function FilterMenu() {
             <Label htmlFor="kcl"> | Karate Combat League</Label>
           </div>
         </div>
-        <Separator className="sm:my-4"></Separator>
-        <SheetFooter className="pt-64 sm:pt-36">
+        <Separator className="my-4"></Separator>
+        <SheetFooter className="pt-36">
           <Button asChild>
             <Link href="https://github.com/ejperez37">
               <Github></Github>
